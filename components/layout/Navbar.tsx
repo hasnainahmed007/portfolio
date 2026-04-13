@@ -54,7 +54,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <Button size="sm">Download CV</Button>
+            <Button size="sm">Download Resume</Button>
           </div>
 
           <button

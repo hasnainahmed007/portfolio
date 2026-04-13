@@ -76,10 +76,12 @@ export function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Button size="lg">
-              View My Work <ArrowRight size={18} />
+              <a href="https://bhromonbd.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                View Recent Work <ArrowRight size={18} />
+              </a>
             </Button>
             <Button variant="secondary" size="lg">
-              Download CV <Download size={18} />
+              Download Resume <Download size={18} />
             </Button>
           </motion.div>
         </motion.div>
