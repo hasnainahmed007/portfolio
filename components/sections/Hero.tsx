@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/Button'
 import { ArrowRight, Download } from 'lucide-react'
 
 const roles = [
-  'Laravel Backend Engineer',
   'Software Engineer',
   'System Architect',
   'API Developer',
