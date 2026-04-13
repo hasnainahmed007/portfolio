@@ -38,7 +38,7 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="text-xl font-bold gradient-text">
-            Dev<span className="text-text-primary">Portfolio</span>
+            Hasnain<span className="text-text-primary">.dev</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

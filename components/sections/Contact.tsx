@@ -12,12 +12,12 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Your City, Country'
+    value: 'Dhaka, Mirpur-1, Bangladesh'
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@example.com'
+    value: 'mdh05944@gmail.com'
   },
   {
     icon: Clock,

@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Full Stack Developer | Laravel & React Expert',
-  description: 'Professional portfolio of a Full Stack Developer specializing in Laravel, React, and modern web technologies.',
+  title: 'Hasnain Ahmed Santo | Laravel Backend Engineer',
+  description: 'Professional portfolio of Hasnain Ahmed Santo, a Laravel Backend Engineer with 3+ years of experience building scalable SaaS and enterprise applications.',
 }
 
 export default function RootLayout({

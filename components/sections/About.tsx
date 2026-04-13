@@ -55,20 +55,20 @@ export function About() {
             className="space-y-6"
           >
             <p className="text-text-secondary leading-relaxed">
-              With over <span className="text-accent-primary font-semibold">5+ years</span> of experience 
-              in full-stack development, I specialize in building robust backend systems with 
+              With over <span className="text-accent-primary font-semibold">3+ years</span> of experience 
+              in backend development, I specialize in building robust SaaS applications with 
               <span className="text-text-primary font-medium"> Laravel</span> and creating 
-              intuitive user interfaces with <span className="text-text-primary font-medium">React</span>.
+              scalable API architectures.
             </p>
             <p className="text-text-secondary leading-relaxed">
               My expertise spans the entire development lifecycle—from designing scalable 
-              architectures and implementing complex features to deploying and monitoring 
+              database architectures and implementing complex features to deploying and monitoring 
               production applications. I am particularly passionate about event-driven 
-              systems, real-time applications, and leveraging AI to enhance developer productivity.
+              systems, real-time applications with Laravel Reverb, and leveraging AI to enhance developer productivity.
             </p>
             <p className="text-text-secondary leading-relaxed">
-              When I am not coding, you will find me exploring new technologies, contributing 
-              to open-source projects, or helping others grow in their development journey.
+              Currently serving as a Software Engineer at Acnoo, leading a team of 3 developers 
+              and delivering production-ready solutions for enterprise clients.
             </p>
           </motion.div>
 

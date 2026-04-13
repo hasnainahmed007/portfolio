@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/Button'
 import { ArrowRight, Download } from 'lucide-react'
 
 const roles = [
-  'Full Stack Developer',
-  'Laravel Expert',
-  'React Specialist',
+  'Laravel Backend Engineer',
+  'Software Engineer',
   'System Architect',
+  'API Developer',
   'DevOps Engineer',
 ]
 
@@ -44,8 +44,8 @@ export function Hero() {
               transition={{ delay: 0.3 }}
               className="text-5xl md:text-7xl font-extrabold"
             >
-              <span className="text-text-primary">Your </span>
-              <span className="gradient-text">Name</span>
+              <span className="text-text-primary">Hasnain </span>
+              <span className="gradient-text">Ahmed</span>
             </motion.h1>
 
             <motion.div
@@ -64,7 +64,7 @@ export function Hero() {
             transition={{ delay: 0.7 }}
             className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed"
           >
-            Building scalable web applications with Laravel and React. 
+            Building scalable SaaS and enterprise applications with Laravel. 
             Turning complex problems into elegant solutions through clean architecture 
             and modern development practices.
           </motion.p>

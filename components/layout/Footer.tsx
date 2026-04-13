@@ -4,10 +4,9 @@ import { Github, Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Mail, href: '#', label: 'Email' },
+  { icon: Github, href: 'https://github.com/hasnainahmed007', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/santo07', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:mdh05944@gmail.com', label: 'Email' },
 ]
 
 export function Footer() {

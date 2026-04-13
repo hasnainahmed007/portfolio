@@ -8,24 +8,17 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: 'Tech Innovations Inc.',
-    role: 'Senior Full Stack Developer',
-    duration: '2022 - Present',
-    description: 'Leading development of enterprise SaaS applications using Laravel and React. Architected multi-tenant systems serving 50,000+ users. Implemented event-driven architectures with Kafka and real-time features using Laravel Reverb.',
-    technologies: ['Laravel', 'React', 'PostgreSQL', 'Kafka', 'Redis', 'Docker', 'AWS']
+    company: 'Acnoo',
+    role: 'Software Engineer',
+    duration: 'Feb 2024 – April 2026',
+    description: 'Designed and developed scalable RESTful APIs for a SaaS-based business management system. Implemented role-based authorization system handling 5+ user types with dynamic permissions. Built modular Laravel architecture improving maintainability and feature scalability. Led a team of 3 developers, conducted code reviews, and mentored junior developers.',
+    technologies: ['Laravel', 'RESTful APIs', 'Docker', 'PostgreSQL', 'Redis', 'Reverb', 'Kafka']
   },
   {
-    company: 'Digital Solutions Ltd.',
-    role: 'Full Stack Developer',
-    duration: '2019 - 2022',
-    description: 'Built scalable web applications and RESTful APIs for clients across e-commerce and fintech sectors. Integrated payment gateways including Stripe and PayPal. Reduced API response times by 40% through query optimization.',
-    technologies: ['Laravel', 'PHP', 'MySQL', 'React', 'JavaScript', 'Bootstrap']
-  },
-  {
-    company: 'StartupXYZ',
-    role: 'Junior Backend Developer',
-    duration: '2017 - 2019',
-    description: 'Developed and maintained backend services for a growing startup. Implemented authentication systems using Laravel Passport. Collaborated with frontend team to deliver full-stack features.',
-    technologies: ['Laravel', 'MySQL', 'REST APIs', 'Git']
+    company: 'Acnoo',
+    role: 'Intern – Software Engineer',
+    duration: 'Dec 2023 – Feb 2024',
+    description: 'Worked collaboratively with the development team to resolve customer-reported issues. Assisted in debugging and improving existing Laravel-based applications. Contributed to feature enhancements and bug fixes under senior developer guidance.',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'JavaScript']
   }
 ]

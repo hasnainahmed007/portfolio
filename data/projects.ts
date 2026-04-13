@@ -10,51 +10,43 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Multi-Tenant SaaS Platform',
-    description: 'Enterprise-grade multi-tenant platform with subscription billing and role-based access control.',
-    longDescription: 'A comprehensive SaaS platform supporting multiple organizations with isolated data, subscription management via Stripe, real-time notifications using Laravel Reverb, and an AI-powered dashboard for analytics.',
-    technologies: ['Laravel', 'React', 'PostgreSQL', 'Redis', 'Stripe', 'Docker', 'AI SDK'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'Restaurant SaaS with Food Ordering System',
+    description: 'Full-featured restaurant management platform with online ordering.',
+    longDescription: 'Comprehensive SaaS platform for restaurants including table management, food ordering system, Kitchen Display System (KDS), and real-time order tracking with Laravel Reverb.',
+    technologies: ['Laravel', 'React', 'MySQL', 'Redis', 'Reverb', 'Docker'],
     featured: true
   },
   {
-    title: 'Real-Time Collaboration Tool',
-    description: 'Team collaboration platform with live document editing and video conferencing.',
-    longDescription: 'Built with Laravel Reverb for real-time WebSocket connections, featuring live document collaboration, integrated video calls, and activity feeds with presence indicators.',
-    technologies: ['Laravel', 'InertiaJS', 'Vue', 'PostgreSQL', 'Reverb', 'WebRTC'],
-    githubUrl: '#',
+    title: 'HRM Management System',
+    description: 'Complete HR management solution with attendance and payroll.',
+    longDescription: 'Enterprise HRM system featuring employee management, attendance tracking, leave management, payroll processing, and performance evaluation modules.',
+    technologies: ['Laravel', 'InertiaJS', 'MySQL', 'Redis', 'Docker'],
     featured: true
   },
   {
-    title: 'E-Commerce API Suite',
-    description: 'High-performance RESTful APIs powering multiple storefronts with inventory management.',
-    longDescription: 'Scalable e-commerce API ecosystem supporting multiple storefronts, with automated inventory sync, PayPal and Stripe payments, and comprehensive admin dashboards.',
-    technologies: ['Laravel', 'MySQL', 'Redis', 'Stripe', 'PayPal', 'Docker'],
-    liveUrl: '#',
-    githubUrl: '#',
+    title: 'ERP System',
+    description: 'Comprehensive enterprise resource planning solution.',
+    longDescription: 'Full-featured ERP system with inventory management, supply chain tracking, financial reporting, and business analytics dashboard for decision making.',
+    technologies: ['Laravel', 'React', 'PostgreSQL', 'Redis', 'Kafka'],
     featured: true
   },
   {
-    title: 'AI Workflow Automation',
-    description: 'Custom AI agent system for automated business process optimization.',
-    longDescription: 'Integrates multiple AI models through MCP protocol to automate repetitive tasks, generate reports, and provide intelligent insights from business data.',
-    technologies: ['Next.js', 'AI SDK', 'MCP', 'Python', 'PostgreSQL'],
-    liveUrl: '#',
-    githubUrl: '#'
+    title: 'Multi-Tenant POS Platform',
+    description: 'Multi-tenant point of sale system for retail businesses.',
+    longDescription: 'Scalable multi-tenant POS platform supporting multiple retail stores with isolated data, inventory sync, sales reporting, and real-time analytics.',
+    technologies: ['Laravel', 'React', 'MySQL', 'Redis', 'Stripe', 'Docker'],
+    featured: true
   },
   {
-    title: 'Healthcare Management System',
-    description: 'HIPAA-compliant patient management system with appointment scheduling.',
-    longDescription: 'Full-featured healthcare platform with patient records management, automated appointment reminders, prescription tracking, and comprehensive audit logging.',
-    technologies: ['Laravel', 'React', 'MySQL', 'Docker', 'AWS'],
-    liveUrl: '#'
+    title: 'Pharmacy Management System',
+    description: 'Pharmacy management with inventory and prescription tracking.',
+    longDescription: 'Specialized pharmacy management system with drug inventory, prescription management, expiry tracking, and supplier coordination features.',
+    technologies: ['Laravel', 'InertiaJS', 'MySQL', 'Docker'],
   },
   {
-    title: 'DevOps Monitoring Dashboard',
-    description: 'Real-time infrastructure monitoring with custom alerts and log analysis.',
-    longDescription: 'Centralized monitoring solution aggregating metrics from Prometheus, application logs from Sentry, and custom business metrics with intelligent alerting via Grafana.',
-    technologies: ['Next.js', 'Grafana', 'Prometheus', 'Sentry', 'Docker', 'PostgreSQL'],
-    githubUrl: '#'
+    title: 'Rental Management System',
+    description: 'Property rental management with tenant tracking.',
+    longDescription: 'Property rental management system featuring tenant onboarding, rent tracking, maintenance requests, utility management, and financial reporting.',
+    technologies: ['Laravel', 'React', 'MySQL', 'Redis'],
   }
 ]
