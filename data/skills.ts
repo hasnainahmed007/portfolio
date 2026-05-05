@@ -29,5 +29,10 @@ export const skillCategories: SkillCategory[] = [
     title: 'AI & Tools',
     icon: 'Cpu',
     skills: ['AI SDK Integration', 'MCP (Model Context Protocol)', 'AI Workflow Automation', 'Opencode', 'Claude Code', 'GitHub Copilot', 'Grafana', 'Prometheus', 'Sentry', 'Log Analysis']
+  },
+  {
+    title: 'Monitoring',
+    icon: 'MonitorIcon',
+    skills: ['Grafana', 'Prometheus', 'Sentry', 'Log Analysis']
   }
 ]

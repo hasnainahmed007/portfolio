@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Server, Monitor, Database, Cloud, Cpu } from 'lucide-react'
+import { Server, Monitor, Database, Cloud, Cpu, MonitorIcon } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { SkillTag } from '@/components/ui/SkillTag'
 import { skillCategories } from '@/data/skills'
@@ -12,6 +12,7 @@ const iconMap: Record<string, React.ElementType> = {
   Database,
   Cloud,
   Cpu,
+  MonitorIcon
 }
 
 export function Skills() {
