@@ -80,7 +80,7 @@ export function Hero() {
               </a>
             </Button>
             <Button variant="secondary" size="lg">
-              Download Resume <Download size={18} />
+              <a href="/Hasnain_Ahmed_Santo_Resume.pdf" download className="flex items-center gap-2">Download Resume <Download size={18} /></a>
             </Button>
           </motion.div>
         </motion.div>
