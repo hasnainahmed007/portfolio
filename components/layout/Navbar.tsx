@@ -54,7 +54,9 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:block">
-            <Button size="sm">Download Resume</Button>
+            <a href="/Hasnain_Ahmed_Santo_Resume.pdf" download>
+              <Button size="sm">Download Resume</Button>
+            </a>
           </div>
 
           <button

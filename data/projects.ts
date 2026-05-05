@@ -14,13 +14,15 @@ export const projects: Project[] = [
     description: 'Full-featured restaurant management platform with online ordering.',
     longDescription: 'Comprehensive SaaS platform for restaurants including table management, food ordering system, Kitchen Display System (KDS), and real-time order tracking with Laravel Reverb.',
     technologies: ['Laravel', 'React', 'MySQL', 'Redis', 'Reverb', 'Docker'],
+    liveUrl: 'https://restaurantapp.acnoo.xyz',
     featured: true
   },
   {
-    title: 'HRM Management System',
+    title: 'Bhromonbd',
     description: 'Complete HR management solution with attendance and payroll.',
     longDescription: 'Enterprise HRM system featuring employee management, attendance tracking, leave management, payroll processing, and performance evaluation modules.',
-    technologies: ['Laravel', 'InertiaJS', 'MySQL', 'Redis', 'Docker'],
+    technologies: ['Laravel', 'Livewire', 'React.js/Next.js', 'PostgreSQL', 'Redis', 'Docker'],
+    liveUrl: 'https://bhromonbd.vercel.app',
     featured: true
   },
   {
@@ -28,6 +30,7 @@ export const projects: Project[] = [
     description: 'Comprehensive enterprise resource planning solution.',
     longDescription: 'Full-featured ERP system with inventory management, supply chain tracking, financial reporting, and business analytics dashboard for decision making.',
     technologies: ['Laravel', 'React', 'PostgreSQL', 'Redis', 'Kafka'],
+    liveUrl: 'https://glasserp.acnoo.xyz',
     featured: true
   },
   {
@@ -35,6 +38,7 @@ export const projects: Project[] = [
     description: 'Multi-tenant point of sale system for retail businesses.',
     longDescription: 'Scalable multi-tenant POS platform supporting multiple retail stores with isolated data, inventory sync, sales reporting, and real-time analytics.',
     technologies: ['Laravel', 'React', 'MySQL', 'Redis', 'Stripe', 'Docker'],
+    liveUrl: 'https://pospro.acnoo.xyz',
     featured: true
   },
   {
@@ -42,11 +46,13 @@ export const projects: Project[] = [
     description: 'Pharmacy management with inventory and prescription tracking.',
     longDescription: 'Specialized pharmacy management system with drug inventory, prescription management, expiry tracking, and supplier coordination features.',
     technologies: ['Laravel', 'InertiaJS', 'MySQL', 'Docker'],
+    liveUrl: 'https://acnoopharmacy.acnoo.xyz',
   },
   {
     title: 'Rental Management System',
     description: 'Property rental management with tenant tracking.',
     longDescription: 'Property rental management system featuring tenant onboarding, rent tracking, maintenance requests, utility management, and financial reporting.',
     technologies: ['Laravel', 'React', 'MySQL', 'Redis'],
+    liveUrl: 'https://rentpro.acnoo.xyz',
   }
 ]
