@@ -100,7 +100,7 @@ export function Projects() {
           className="text-center mt-12"
         >
           <Button variant="secondary" size="lg">
-            <Github size={18} /> View More on GitHub
+            <Github size={18} /> <a href="https://github.com/hasnainahmed007" target="_blank" rel="noopener noreferrer">View More on GitHub</a>
           </Button>
         </motion.div>
       </div>
